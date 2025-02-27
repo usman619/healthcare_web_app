@@ -1,4 +1,4 @@
-from fastapi import FastAPI, File, HTTPException, APIRouter, UploadFile
+from fastapi import File, HTTPException, APIRouter, UploadFile
 from dotenv import load_dotenv
 from pydub import AudioSegment
 import speech_recognition as sr

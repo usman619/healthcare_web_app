@@ -3,10 +3,7 @@ from components.audio_input import audio_input, upload_audio
 from components.transcription import transcribe_audio
 from components.translation import translate_transcript
 from gtts import gTTS
-import os
 import tempfile
-from pydub import AudioSegment
-from pydub.playback import play
 
 st.title("Healthcare Translation Web App with Generative AI")
 

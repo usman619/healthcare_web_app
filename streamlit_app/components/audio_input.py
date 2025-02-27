@@ -1,12 +1,5 @@
 import streamlit as st
 
-# def audio_input():
-#     recorded_file = st.audio_input("Speak into your microphone...")
-#     if recorded_file:
-#         audio_bytes = recorded_file.read()
-#         return audio_bytes, recorded_file.name
-#     else:
-#         return None, None
 
 def audio_input():
     # Check if we already stored a recording in session_state.

@@ -76,7 +76,7 @@ graph LR
 ## Project Structure 📁
 
 ```
-python_server/
+healthcare_translation_web_app/
 ├── server/
 │   ├── routes/
 │   │   ├── transcribe.py      # Audio transcription endpoint
@@ -127,19 +127,28 @@ cd healthcare_web_app
 pip install -r requirements.txt
 ```
 
-3. Configure environment variables:
+3. Install ffmpeg in conda or on your device
+```bash
+conda install -c conda-forge ffmpeg
+```
+```bash
+sudo apt-get update
+sudo apt-get install ffmpeg
+```
+
+4. Configure environment variables:
 ```bash
 cp .env.example .env
 # Edit .env with your API keys
 ```
 
-4. Start the server:
+5. Start the server:
 ```bash
 cd server
 fastapi dev server.py
 ```
 
-5. Start the Streamlit app:
+6. Start the Streamlit app:
 ```bash
 cd ../streamlit_app
 streamlit run app.py
