@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from server.routes import translate, transcript, transcribe
+from server.routes import translate, transcribe
 
 app = FastAPI()
 
