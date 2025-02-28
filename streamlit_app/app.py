@@ -88,8 +88,8 @@ st.header("Translation")
 transcript_to_translate = st.selectbox("Select transcript to translate:", ["Original", "Checked"])
 transcript = st.session_state.original_transcript if transcript_to_translate == "Original" else st.session_state.checked_transcript
 
-source_lang = st.selectbox("Select source language:", ["English", "Urdu", "Spanish", "French", "German", "Italian", "Japanese", "Korean", "Portuguese", "Russian", "Chinese"])
-target_lang = st.selectbox("Select target language:", ["English", "Urdu", "Spanish", "French", "German", "Italian", "Japanese", "Korean", "Portuguese", "Russian", "Chinese"])
+source_lang = st.selectbox("Select source language:", ["English", "Urdu", "French", "German", "Italian", "Japanese", "Korean", "Portuguese", "Russian", "Chinese"])
+target_lang = st.selectbox("Select target language:", ["English", "Urdu", "French", "German", "Italian", "Japanese", "Korean", "Portuguese", "Russian", "Chinese"])
 
 if st.button("Translate"):
     if not transcript:

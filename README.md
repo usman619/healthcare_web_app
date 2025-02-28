@@ -165,3 +165,27 @@ Required environment variables in `.env`:
 Access the interactive API documentation:
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
+
+## Deployment 🖥️
+**FastAPI code**: [healthcare_server](https://github.com/usman619/healthcare_server)
+**Streamlit code**: [healthcare_streamlit](https://github.com/usman619/healthcare_streamlit)
+
+**Streamlit frontend Link**: ()[]
+
+I have deployed this project using [Streamlit](https://streamlit.io/) for the frontend and [Railway](https://railway.com/) for the backend.
+
+Streamlit deployment was simple and but I am having issues with `healthcare_server` deployment. I have tested it by creating docker image and testing it locally and that is working perfectly. The following are the deployment images on `railway.com` and 
+
+- Railway server deployment:
+<img src="screenshots/railway_deployment_1.png" alt="railway_deployment_1">
+- The main issue is `ffmpeg` not working correctly which is resulting in the APIs not working once deployed:
+<img src="screenshots/railway_deployment_2.png" alt="railway_deployment_2">
+
+- Now, testing docker image creating and testing the image locally:
+<img src="screenshots/creating_docker_image.png" alt="creating_docker_image">
+<img src="screenshots/running_docker_image.png" alt="running_docker_image">
+
+- This is the Healthcare Translation Web App working output:
+<img src="screenshots/healtcare_app_1.png" alt="healtcare_app_1">
+<img src="screenshots/healtcare_app_2.png" alt="healtcare_app_2">
+<img src="screenshots/healtcare_app_3.png" alt="healtcare_app_3">
