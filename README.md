@@ -170,7 +170,7 @@ Access the interactive API documentation:
 **FastAPI code**: [healthcare_server](https://github.com/usman619/healthcare_server)
 **Streamlit code**: [healthcare_streamlit](https://github.com/usman619/healthcare_streamlit)
 
-**Streamlit frontend Link**: (https://healthcare-translation-web-app.streamlit.app/)[https://healthcare-translation-web-app.streamlit.app/]
+**Streamlit frontend Link**: https://healthcare-translation-web-app.streamlit.app/
 
 I have deployed this project using [Streamlit](https://streamlit.io/) for the frontend and [Railway](https://railway.com/) for the backend.
 
